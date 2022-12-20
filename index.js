@@ -50,3 +50,36 @@ function booksPurchase() {
 }
 
 booksPurchase();
+
+let registeredEmail = "abdirizak@gmail.com"
+let registeredPassword = 1234
+
+let emailInput = document.getElementById('email2').value;
+
+let passwordInput = document.getElementById('pass2').value;
+
+// If statement to check whether a user is a registered student
+
+let buttonLog = document.getElementById('logBtn')
+
+buttonLog.addEventListener("click", ()=> {
+    // Adding an event listener to a button
+    if (registeredEmail == emailInput) {
+        if (registeredPassword == passwordInput) {
+            alert("Successful login, Access granted!!")
+        }
+    } 
+    
+    else if (registeredPassword != passwordInput) {
+        alert('Try again! Wrong password!')
+    } 
+
+    else {
+        alert("Kindly Sign Up.")
+    }
+})
+
+
+
+
+

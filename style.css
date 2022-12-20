@@ -1,0 +1,51 @@
+
+/* Styling of header section */
+
+body {
+    background-color: #adc178;
+  }
+  
+  #con-tent {
+    background-color: #598392;
+  }
+  
+  
+  .logo {
+      font-size: 30px;
+      color: #1d3557;
+      margin-left: 5px;
+      margin-top: 15px;
+  }
+  
+  .navbar {
+      display: flex;
+  
+  }
+  
+  ul#navbar {
+      list-style-type: none;
+      margin-left: 150px;
+      padding: 0px;
+      overflow: hidden;
+    }
+    
+    li.nav-bar {
+      float: left;
+    }
+    
+    li.nav-bar a {
+      display: block;
+      color: blue;
+      font-size:20px;
+      text-align: center;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    li.nav-bar .active{
+    background-color: gray;
+    color: white;
+    }
+    li.nav-bar a:hover {
+      background-color: #cdb4db;
+      color: white;
+    }

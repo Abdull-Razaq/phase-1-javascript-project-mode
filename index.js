@@ -89,33 +89,32 @@ document.querySelector('ul#books').addEventListener('click', ()=> {
     deleteBooks(book);
 })
 
-let registeredEmail = "abdirizak@gmail.com"
-let registeredPassword = 1234
-
-let emailInput = document.getElementById('email2').value;
-
-let passwordInput = document.getElementById('pass2').value;
 
 // If statement to check whether a user is a registered student
 
 let buttonLog = document.getElementById('logBtn')
 
 buttonLog.addEventListener("click", ()=> {
+    let registeredEmail = "abdirizak@gmail.com"
+    let registeredPassword = 1234
+
+    let emailInput = document.getElementById('email2').value;
+
+    let passwordInput = document.getElementById('pass2').value;
     // Adding an event listener to a button
+    // Check whether the email and password input equal to our dummy credentials
     if (registeredEmail == emailInput) {
         if (registeredPassword == passwordInput) {
             alert("Successful login, Access granted!!")
         }
-    } 
-
-    else if (registeredPassword != passwordInput) {
-        alert('Try again! Wrong password!')
-    } 
-
+    }
+    //  Unknown credentials
     else {
         alert("Kindly Sign Up.")
     }
 })
+
+// Sign up 
 
 
 // Adding an event listener to a submit button 

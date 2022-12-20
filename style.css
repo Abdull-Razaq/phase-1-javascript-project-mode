@@ -97,3 +97,30 @@ li.nav-bar a:hover {
     text-align: center;
     background-color: #9caea9;
 }
+
+#studentFeedback {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+ }
+
+ #course {
+  width: 200px;
+ }
+
+ #subject {
+  width: 500px;
+ }
+
+
+
+ #booksMenu {
+    font-style: italic;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 35px;
+    border:  solid ;
+    border-left-width: 10px;
+    border-bottom-width: 5px;
+ }

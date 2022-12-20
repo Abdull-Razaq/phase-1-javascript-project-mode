@@ -171,4 +171,124 @@ You can consult the [json-server docs][] for more information.
 
 [json-server]: https://www.npmjs.com/package/json-server
 
+## Project **README 
+
+### My project ReadME file
+
+### Project name:  ** School Management System - EduCA **
+
+### Author: ABDIRIZAK MOHAMED AHMED 
+
+### Description
+    **School Management System - EduCA**
+
+    A school website that entails the following:
+
+    -->  A library section
+
+    Displays a catalogue of books that the studnets can purchase
+    Allows the function to add and delete new books to the catalogue
+
+    --> A log-in / sign-up form
+
+    Registered students can access the school system
+    Umregistered students can sign up
+
+
+    --> Student feedback form 
+
+    A form to gather feedback from students
+
+    --> Newsletter subscription form
+
+    Subscription to our newsletter
+
+### Running The Live Hosted Application
+    On your browser open this link to access the live web application     
+
+### Running Application on Local Server
+        **Getting Started**
+    In order for you to use the content on this repo ensure you have the following:
+
+    A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+    nodejs 9.0+
+
+        **Installation**
+    To use this repo on your machine requires some simple steps
+
+### Alternative One
+    Open a terminal / command line interface on your computer
+
+    Clone the repo by using the following to create a copy on your local machine:
+
+            git clone 
+      https://github.com/Abdull_razaq/phase-1-javascript-project-mode
+
+    Change directory to the repo folder:
+
+    cd l1-js-dom
+
+    (Optional) Open it in Visual Studio Code
+
+    code .
+
+    (Alternate Option) Open it in any editor of your choice.
+
+### Alternative Two
+    On the top right corner of this page there is a button labelled Fork.
+
+    Click on that button to fork the repo to your own account.
+
+    Take on the process in Alternative One above.
+
+    Remember to replace your username when cloning.
+
+        git clone 
+    https://github.com/your-username-here/phase-1-javascript-project-mode
+
+
+### Running the application
+
+To run the application, you can use the following steps to run the app.
+
+    Install required dependencies from npm
+
+    npm install
+
+    Run the application
+
+    npm start
+
+
+### Author
+
+### Abdirizak Mohamed
+
+
+## License
+
+Copyright (c) 2021 Flatiron School, Inc
+
+The Flatiron School, Inc. owns this Educational Content. However, the Flatiron
+School supports the development and availability of educational materials in the
+public domain. Therefore, the Flatiron School grants Users of the Flatiron
+Educational Content set forth in this repository certain rights to reuse, build
+upon and share such Educational Content subject to the terms of the Educational
+Content License set forth [here](http://learn.co/content-license)
+(http://learn.co/content-license). You must read carefully the terms and
+conditions contained in the Educational Content License as such terms govern
+access to and use of the Educational Content.
+
+Flatiron School is willing to allow you access to and use of the Educational
+Content only on the condition that you accept all of the terms and conditions
+contained in the Educational Content License set forth
+[here](http://learn.co/content-license) (http://learn.co/content-license). By
+accessing and/or using the Educational Content, you are agreeing to all of the
+terms and conditions contained in the Educational Content License. If you do not
+agree to any or all of the terms of the Educational Content License, you are
+prohibited from accessing, reviewing or using in any way the Educational
+Content.
+
+
+
 

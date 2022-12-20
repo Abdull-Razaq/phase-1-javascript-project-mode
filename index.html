@@ -129,6 +129,39 @@
 
         <!-- End of Signup/Login Form -->
 
+        <!-- Creation of a contact form -->
+        <div class="sec-container">
+        <form id="contactUS">
+            <p id="studentFeedback">Student Feedback Form</p>
+            <div id="fname">
+              <label for="fnmae">First Name</label>
+              <input type="text" id="fname" name="firstname"  placeholder="Your name...">
+              <br> <br>
+            </div>
+
+            <label for="fnmae">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your name...">
+            <br> <br>
+
+            <label for="course">Course  </label>
+            <select id="course" name="course">
+                <option value="choose-course">Choose course ...</option>
+            <option value="computer-science">Computer Science</option>
+            <option value="bit">Bachelor's in Information Technology</option>
+            <option value="data-science">Data Science</option>
+            </select>
+            <br> <br>
+
+            <label for="subject">Subject</label> <br>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit" id="submitBtn">
+
+            </form>
+         </div>
+
+         <!-- End of contact form -->
+
     <!-- Linking my JS file to my HTML file -->
     <script src="./index.js"></script>
 </body>

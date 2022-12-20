@@ -86,3 +86,9 @@ li.nav-bar a:hover {
     margin-right: 80px;
     background-color: #3f88c5;
   }
+
+  #submitBtn {
+    color: rgb(0, 89, 255);
+    background-color: #fafafa;
+  
+  }

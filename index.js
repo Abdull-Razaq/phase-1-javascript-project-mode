@@ -86,6 +86,18 @@ btn.addEventListener('click', ()=> {
   alert("Thank you for your feedback")
 })
 
+// Adding an event listener to follow me button
+//  In the subscription form
+
+let btn2 = document.getElementById('followBtn')
+btn2.addEventListener("click", ()=> {
+  let subscribeEmail = document.getElementById('subscribe-field').value;
+  // alert("Subscribe email is: " + subscribeEmail)
+  alert(`Subscribed as ${subscribeEmail}`)
+  // alert("thanks")
+})
+
+
 
 
 

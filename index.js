@@ -69,7 +69,7 @@ buttonLog.addEventListener("click", ()=> {
             alert("Successful login, Access granted!!")
         }
     } 
-    
+
     else if (registeredPassword != passwordInput) {
         alert('Try again! Wrong password!')
     } 
@@ -77,6 +77,13 @@ buttonLog.addEventListener("click", ()=> {
     else {
         alert("Kindly Sign Up.")
     }
+})
+
+
+// Adding an event listener to a submit button 
+let btn = document.getElementById('submitBtn')
+btn.addEventListener('click', ()=> {
+  alert("Thank you for your feedback")
 })
 
 

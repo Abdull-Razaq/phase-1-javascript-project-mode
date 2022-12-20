@@ -51,6 +51,44 @@ function booksPurchase() {
 
 booksPurchase();
 
+
+// Patch Function
+
+function updateBooks(book) {
+    fetch(`http://localhost:3000/books/${books.id}`,{
+        method: 'PATCH',
+        headers: {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(book)
+    })
+    .then(resp => resp.json())
+    .then(books => {console.log(books);})
+}
+
+document.querySelector('ul#books').addEventListener('click', ()=> {
+    updateBooks(book);
+})
+
+// Delete function
+
+function deleteBooks(book) {
+    fetch(`http://localhost:3000/books/${id}`,{
+        method: 'PATCH',
+        headers: {
+            'Content-Type' : 'application/json'
+        },
+        body: JSON.stringify(book)
+    })
+    .then(resp => resp.json())
+    .then(books => {console.log(books);
+    } )
+}
+
+document.querySelector('ul#books').addEventListener('click', ()=> {
+    deleteBooks(book);
+})
+
 let registeredEmail = "abdirizak@gmail.com"
 let registeredPassword = 1234
 

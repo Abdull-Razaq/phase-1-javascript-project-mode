@@ -2,6 +2,9 @@
 // BaseUrl declaration
 let dataUrl = "http://localhost:3000/books"
 
+// Public API link
+let publicUrl = "https://api.jsonbin.io/v3/b/63a053c0dfc68e59d56c162a"
+
 // Fetch API function
 //  To render books to the school books catalogue section
 

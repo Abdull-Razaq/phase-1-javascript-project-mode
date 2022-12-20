@@ -1,0 +1,50 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "A Smarter Way to Learn JavaScript",
+        "description": "This book is written for beginners to JavaScript, but also very useful for experienced developers who want to sharpen their skills. It has all the core fundamentals of JavaScript and some advanced concepts such as constructors and prototypes.",
+        "image": "https://0.academia-photos.com/attachment_thumbnails/60052466/mini_magick20190718-28734-1ooilh3.png?1563509009",
+        "author": "Mike Myers",
+        "in-stock": 30,
+        "sold": 22
+      },
+      {
+        "id": 2,
+        "title": "JavaScript: The Definitive Guide",
+        "description": "This classic has been the go-to JavaScript book for programmers for nearly 25 years. The latest edition is updated to cover the 2020 version of Javascript along with some newly added chapters on a range of topics. ",
+        "image": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1701dae9-11c3-49c9-a715-e9da2c412e6c.__CR0,29,600,658_PT0_SX166_V1___.png",
+        "author": "David Flanagan",
+        "in-stock": 40,
+        "sold": 21
+      },
+      {
+        "id": 3,
+        "title": "Secrets of the JavaScript Ninja",
+        "description": "The Definitive Guide has been the bible for JavaScript programmers—a programmer's guide and comprehensive reference to the core language and to the client side JavaScript APIs defined by web browsers.",
+        "image": "https://m.media-amazon.com/images/I/51Uo38cMKKL._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_PIStarRatingFOURANDHALF%2CBottomLeft%2C360%2C-6_SR600%2C315_ZA137%2C445%2C290%2C400%2C400%2CAmazonEmberBold%2C12%2C4%2C0%2C0%2C5_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+        "author": "Josip Maras",
+        "in-stock": 10,
+        "sold": 8
+      },
+      {
+        "id": 4,
+        "title": "JavaScript: The Good Parts",
+        "description": "JavaScript was developed and released in a hurry before it could be refined. Hence, it comes with its share of good and bad parts. This book refines these bad features to reveal a JavaScript that is more readable and maintainable.",
+        "image" : "https://is1-ssl.mzstatic.com/image/thumb/Publication/v4/d6/12/dd/d612dd1b-ad14-0cd1-f23a-841950baf06b/9780596554873.jpg/1200x630wz.png",
+        "author": "Douglas Crockford",
+        "in-stock": 30,
+        "sold": 26
+      },
+      {
+        "id": 5,
+        "title": "Eloquent Java",
+        "description": "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
+        "image" : "https://uploads.sitepoint.com/wp-content/uploads/2017/03/1488480428eloquent-js.jpg",
+        "author": "Marijin Haverbeke",
+        "in-stock": 10,
+        "sold": 8
+      }
+    ]
+   }
+   

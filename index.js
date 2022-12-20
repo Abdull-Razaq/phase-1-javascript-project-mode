@@ -114,7 +114,15 @@ buttonLog.addEventListener("click", ()=> {
     }
 })
 
-// Sign up 
+// Sign up form
+
+let btnSignUp = document.getElementById('signUp')
+
+btnSignUp.addEventListener('click', ()=> {
+    let registeringPerson = document.getElementById('user').value;
+    // Alert message
+    alert(`${registeringPerson} has successful registered, Welcome!`)
+})
 
 
 // Adding an event listener to a submit button 
